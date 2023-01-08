@@ -1,10 +1,10 @@
 import React from "react";
 
-function HandleSal({ calcSal }) {
+function HandleSal({ handleSal }) {
   console.log("Handle Sal components");
   return (
     <div>
-      <button onClick={calcSal}>increase the Salary</button>
+      <button onClick={handleSal}>increase the Salary</button>
     </div>
   );
 }

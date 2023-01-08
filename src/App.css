@@ -1,17 +1,29 @@
-.parent{
+.parent {
   position: relative;
   width: 100px;
   height: 100px;
   background-color: green;
 }
 
-.child{
+.child {
   position: absolute;
   width: 50px;
   height: 50px;
   background-color: blue;
 }
 
-.wrapper{
+.wrapper {
   background-color: red;
+}
+
+@media only sreen and (max-widh: 450px) {
+  .wrapper {
+    background-color: black;
+  }
+}
+
+@media (min-width: 240px) and (max-width: 700px) {
+}
+
+@media (240px <= width <= 600px) {
 }
